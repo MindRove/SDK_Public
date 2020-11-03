@@ -11,6 +11,7 @@ On top of Brainflow, we integrated the following two boards:
 
 ## Binaries
 For using the SDK we provided the binaries for x64 win systems in win64/
+
 Please follow the instruction and documentation for brainflow: https://brainflow.readthedocs.io/en/stable/
 
 
