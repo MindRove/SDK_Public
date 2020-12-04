@@ -1,7 +1,7 @@
 # Mindrove SDK
 
 
-The Mindrove SDK has <b>Brainflow</b> (https://github.com/OpenBCI/brainflow) as it's base framework. 
+The Mindrove SDK has <b>[Brainflow](https://github.com/brainflow-dev/brainflow)</b>  as it's base framework. 
 
 On top of Brainflow, we integrated the following two boards: 
 > MINDROVE_BLUETOOTH_BOARD
