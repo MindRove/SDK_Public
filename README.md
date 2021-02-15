@@ -1,7 +1,7 @@
-# Mindrove SDK
+# MindRove/neuroLeet SDK
 
 
-The Mindrove SDK has <b>[Brainflow](https://github.com/brainflow-dev/brainflow)</b>  as it's base framework. 
+The <b>[MindRove](https://mindrove.com/)</b>/<b>[neuroLeet](https://neuroleet.gg/)</b> SDK has <b>[Brainflow](https://github.com/brainflow-dev/brainflow)</b>  as it's base framework. 
 
 On top of Brainflow, we integrated the following two boards: 
 > MINDROVE_BLUETOOTH_BOARD
