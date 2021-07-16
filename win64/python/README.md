@@ -2,8 +2,12 @@
     <img width="400" height="160" src="https://live.staticflickr.com/65535/49908747533_f359f83610_w.jpg">
 </p>
 
-
 BrainFlow is a library intended to obtain, parse and analyze EEG, EMG, ECG and other kinds of data from biosensors.
+
+
+### Setup
+
+```python setup.py install ```
 
 #### Advantages of BrainFlow:
 
