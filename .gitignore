@@ -1,0 +1,5 @@
+.vs/*
+*.pdb
+*.cache
+*.pyc
+*.db
