@@ -18,6 +18,8 @@ Please follow the instruction and documentation for brainflow: https://brainflow
 ## Get started!
 To get started, we provided a C# code as a standalone example and the same code integrated into Unity. You can find these examples under the examples/ folder. 
 
+## Further documentation
+For further custom functionalities and ***MindRove specific*** documentation please visit our [Github Wiki Page](https://github.com/MindRove/SDK_Public/wiki). 
 
 ## Contribute
 For any bugs or if the rest of the platform binaries are needed, please make an issue.
