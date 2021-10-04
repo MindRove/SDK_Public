@@ -3,13 +3,6 @@
 #include <string>
 #include <tuple>
 
-enum class IpProtocolType
-{
-    NONE = 0,
-    UDP = 1,
-    TCP = 2
-};
-
 // we pass this structure from user API as a json string
 struct BrainFlowInputParams
 {
@@ -29,7 +22,7 @@ struct BrainFlowInputParams
         mac_address = "";
         ip_address = "";
         ip_port = 0;
-        ip_protocol = (int)IpProtocolType::NONE;
+        ip_protocol = 0;
         other_info = "";
         timeout = 0;
         serial_number = "";
@@ -43,5 +36,20 @@ struct BrainFlowInputParams
                    timeout, serial_number, file) <
             std::tie (other.serial_port, other.mac_address, other.ip_address, other.ip_port,
                 other.ip_protocol, other.other_info, timeout, serial_number, file);
+    }
+
+    bool operator> (const struct BrainFlowInputParams &other) const
+    {
+        return (!(*this < other)) && ((*this != other));
+    }
+
+    bool operator== (const struct BrainFlowInputParams &other) const
+    {
+        return (!(*this < other)) && (!(other < *this));
+    }
+
+    bool operator!= (const struct BrainFlowInputParams &other) const
+    {
+        return !(*this == other);
     }
 };

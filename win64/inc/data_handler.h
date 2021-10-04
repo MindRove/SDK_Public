@@ -18,6 +18,8 @@ extern "C"
     SHARED_EXPORT int CALLING_CONVENTION perform_bandstop (double *data, int data_len,
         int sampling_rate, double center_freq, double band_width, int order, int filter_type,
         double ripple);
+    SHARED_EXPORT int CALLING_CONVENTION remove_environmental_noise (
+        double *data, int data_len, int sampling_rate, int noise_type);
 
     SHARED_EXPORT int CALLING_CONVENTION perform_rolling_filter (
         double *data, int data_len, int period, int agg_operation);
@@ -32,6 +34,10 @@ extern "C"
         double *output_data);
     SHARED_EXPORT int CALLING_CONVENTION perform_wavelet_denoising (
         double *data, int data_len, char *wavelet, int decomposition_level);
+    SHARED_EXPORT int CALLING_CONVENTION get_csp (double *data, double *labels, int n_epochs,
+        int n_channels, int n_times, double *output_w, double *output_d);
+    SHARED_EXPORT int CALLING_CONVENTION get_window (
+        int window_function, int window_len, double *output_window);
     SHARED_EXPORT int CALLING_CONVENTION perform_fft (
         double *data, int data_len, int window_function, double *output_re, double *output_im);
     SHARED_EXPORT int CALLING_CONVENTION perform_ifft (
