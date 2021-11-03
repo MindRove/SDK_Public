@@ -3,3 +3,7 @@
 *.cache
 *.pyc
 *.db
+Release/*
+Debug/*
+obj/*
+__pycache__/*

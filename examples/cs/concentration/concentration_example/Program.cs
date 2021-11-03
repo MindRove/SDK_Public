@@ -38,7 +38,7 @@ namespace brainflow_cs_test
                 board_shim.start_stream(); // use this for default options
                                            //board_shim.start_stream(450000, "file://file_stream.csv:w");
 
-                
+                board_shim.config_board(BoardShim.MindroveWifiConfigMode.EEG_MODE);
                 BrainFlowModelParams concentration_params = new BrainFlowModelParams((int)BrainFlowMetrics.CONCENTRATION, (int)BrainFlowClassifiers.REGRESSION);
                 concentration = new MLModel(concentration_params);
                 concentration.prepare();

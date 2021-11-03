@@ -117,4 +117,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>for /r "$(ProjectDir)..\..\..\..\win64\lib" %25%25f in (*.dll) do @xcopy "%25%25f" "$(TargetDir)" /Y</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>for /r "$(ProjectDir)..\..\..\..\win64\cs-bin" %25%25f in (*.dll) do @xcopy "%25%25f" "$(TargetDir)" /Y</PreBuildEvent>
+  </PropertyGroup>
 </Project>

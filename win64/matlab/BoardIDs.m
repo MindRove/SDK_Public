@@ -43,6 +43,5 @@ classdef BoardIDs < int32
         ANT_NEURO_EE_225_BOARD(36)
         ENOPHONE_BOARD(37)
         MINDROVE_WIFI_BOARD(38)
-        MINDROVE_BLUETOOTH_BOARD(39)
     end
 end
