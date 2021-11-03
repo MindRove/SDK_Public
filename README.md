@@ -7,7 +7,7 @@ On top of Brainflow, we integrated the following board:
 > MINDROVE_WIFI_BOARD
 
 ## Compatibility 
-If you received your device before **2021.11.03** (Y/m/d) (and have not updated your firmware yet) the current SDK release is not compatible with your device, please consider updating your firmware or using the [Release v1.0.0](https://github.com/MindRove/SDK_Public/releases/tag/v1.0.0)
+If you received your device before **2021.11.03** (Y/m/d) (and have not updated your firmware yet) the current SDK release is not compatible with your device, please consider updating your firmware (<info@mindrove.com>) or using the [Release v1.0.0](https://github.com/MindRove/SDK_Public/releases/tag/v1.0.0)
 
 ## Get started!
 For using the SDK we provided the binaries for x64 win systems in win64/
