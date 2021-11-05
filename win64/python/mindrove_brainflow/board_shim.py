@@ -12,7 +12,7 @@ from typing import List, Set, Dict, Tuple
 
 from nptyping import NDArray, Float64
 
-from brainflow.exit_codes import BrainflowExitCodes
+from mindrove_brainflow.exit_codes import BrainflowExitCodes
 
 
 class BoardIds(enum.IntEnum):
@@ -62,6 +62,12 @@ class BoardIds(enum.IntEnum):
     ENOPHONE_BOARD = 37 #:
     MINDROVE_WIFI_BOARD = 38 #:
 
+class MindroveConfigMode(object):
+    EEG_MODE = chr(0)+chr(0)+chr(0)+chr(0)+chr(0)
+    IMP_MODE = chr(4)+chr(0)+chr(0)+chr(0)+chr(0)
+    BEEP = chr(1)+chr(0)+chr(0)+chr(0)+chr(0)
+    BOOP = chr(2)+chr(0)+chr(0)+chr(0)+chr(0)
+    TEST_SIGNAL = chr(16)+chr(0)+chr(0)+chr(0)+chr(0)
 
 class LogLevels(enum.IntEnum):
     """Enum to store all log levels supported by BrainFlow"""

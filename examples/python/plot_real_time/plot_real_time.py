@@ -6,9 +6,9 @@ import random
 import pyqtgraph as pg
 from pyqtgraph.Qt import QtGui, QtCore
 
-import brainflow
-from brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds, BrainFlowError
-from brainflow.data_filter import DataFilter, FilterTypes, AggOperations, WindowFunctions, DetrendOperations
+import mindrove_brainflow
+from mindrove_brainflow.board_shim import BoardShim, BrainFlowInputParams, BoardIds, BrainFlowError, MindroveConfigMode
+from mindrove_brainflow.data_filter import DataFilter, FilterTypes, AggOperations, WindowFunctions, DetrendOperations
 
 
 class Graph:
@@ -24,8 +24,10 @@ class Graph:
         self.window_size = 4
         self.num_points = self.window_size * self.sampling_rate
 
+        self.board_shim.config_board(MindroveConfigMode.EEG_MODE)
+
         self.app = QtGui.QApplication([])
-        self.win = pg.GraphicsWindow(title='BrainFlow Plot',size=(800, 600))
+        self.win = pg.GraphicsWindow(title='Mindrove Plot',size=(800, 600))
 
         self._init_pens()
         self._init_timeseries()
@@ -36,6 +38,7 @@ class Graph:
         timer.timeout.connect(self.update)
         timer.start(self.update_speed_ms)
         QtGui.QApplication.instance().exec_()
+
 
     def _init_pens(self):
         self.pens = list()

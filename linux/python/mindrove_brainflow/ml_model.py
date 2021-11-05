@@ -12,8 +12,8 @@ from typing import List, Set, Dict, Tuple
 
 from nptyping import NDArray, Float64
 
-from brainflow.board_shim import BrainFlowError, LogLevels
-from brainflow.exit_codes import BrainflowExitCodes
+from mindrove_brainflow.board_shim import BrainFlowError, LogLevels
+from mindrove_brainflow.exit_codes import BrainflowExitCodes
 
 
 class BrainFlowMetrics(enum.IntEnum):

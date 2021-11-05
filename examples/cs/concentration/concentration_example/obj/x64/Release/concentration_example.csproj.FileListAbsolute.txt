@@ -8,3 +8,4 @@ D:\Mindrove\SDK_Public\examples\cs\concentration\concentration_example\obj\x64\R
 D:\Mindrove\SDK_Public\examples\cs\concentration\concentration_example\obj\x64\Release\concentration_example.csproj.CopyComplete
 D:\Mindrove\SDK_Public\examples\cs\concentration\concentration_example\obj\x64\Release\concentration_example.exe
 D:\Mindrove\SDK_Public\examples\cs\concentration\concentration_example\obj\x64\Release\concentration_example.pdb
+D:\Mindrove\SDK_Public\examples\cs\concentration\concentration_example\bin\x64\Release\mindrove_brainflow.dll

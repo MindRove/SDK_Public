@@ -67,9 +67,8 @@
     <Reference Include="Accord.Math.Core">
       <HintPath>D:\Jano\Mindrove\brainflow\csharp-package\brainflow\brainflow\bin\Debug\Accord.Math.Core.dll</HintPath>
     </Reference>
-    <Reference Include="brainflow, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x64\Release\brainflow.dll</HintPath>
+    <Reference Include="mindrove_brainflow">
+      <HintPath>..\..\..\..\win64\cs-bin\mindrove_brainflow.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

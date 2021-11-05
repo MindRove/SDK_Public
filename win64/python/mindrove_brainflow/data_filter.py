@@ -11,9 +11,9 @@ from typing import List, Set, Dict, Tuple
 
 from nptyping import NDArray, Float64, Complex128, Int64
 
-from brainflow.board_shim import BrainFlowError, LogLevels
-from brainflow.exit_codes import BrainflowExitCodes
-from brainflow.utils import check_memory_layout_row_major
+from mindrove_brainflow.board_shim import BrainFlowError, LogLevels
+from mindrove_brainflow.exit_codes import BrainflowExitCodes
+from mindrove_brainflow.utils import check_memory_layout_row_major
 
 
 class FilterTypes(enum.IntEnum):
