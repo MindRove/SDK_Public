@@ -12,9 +12,9 @@ If you received your device before **2021.11.03** (Y/m/d) (and have not updated 
 
 ## Installation 
 ### Python 
-Under the linux or win64 folder ( depending on which system do you intend to use it ) got to the python folder. To install the Mindrove specific version of brainflow run the following command in your shell ( be aware of the ***dot*** at the end of the command ) : 
+ To install the Mindrove specific version of brainflow run the following command in your shell: 
 
-    pip install -U .
+    pip install mindrove-brainflow
 
 This will install the `mindrove_brainflow` package and you can access it ( examples are provided under the /examples/python folder )
 
