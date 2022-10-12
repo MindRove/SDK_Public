@@ -22,7 +22,7 @@ public class NewBehaviourScript : MonoBehaviour
             BoardShim.enable_dev_board_logger();
 
             BrainFlowInputParams input_params = new BrainFlowInputParams();
-            int board_id = (int)BoardIds.MINDROVE_BLUETOOTH_BOARD;//= parse_args(args, input_params);
+            int board_id = (int)BoardIds.MINDROVE_WIFI_BOARD;//= parse_args(args, input_params);
 
             board_shim = new BoardShim(board_id, input_params);
             board_shim.prepare_session();
