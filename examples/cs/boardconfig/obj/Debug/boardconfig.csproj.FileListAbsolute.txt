@@ -1,0 +1,10 @@
+C:\Users\raczm\Documents\MindRove\SDK_Public\examples\cs\boardconfig\bin\Debug\boardconfig.exe.config
+C:\Users\raczm\Documents\MindRove\SDK_Public\examples\cs\boardconfig\bin\Debug\boardconfig.exe
+C:\Users\raczm\Documents\MindRove\SDK_Public\examples\cs\boardconfig\bin\Debug\boardconfig.pdb
+C:\Users\raczm\Documents\MindRove\SDK_Public\examples\cs\boardconfig\bin\Debug\brainflow.dll
+C:\Users\raczm\Documents\MindRove\SDK_Public\examples\cs\boardconfig\obj\Debug\boardconfig.csproj.AssemblyReference.cache
+C:\Users\raczm\Documents\MindRove\SDK_Public\examples\cs\boardconfig\obj\Debug\boardconfig.csproj.SuggestedBindingRedirects.cache
+C:\Users\raczm\Documents\MindRove\SDK_Public\examples\cs\boardconfig\obj\Debug\boardconfig.csproj.CoreCompileInputs.cache
+C:\Users\raczm\Documents\MindRove\SDK_Public\examples\cs\boardconfig\obj\Debug\boardconfig.csproj.CopyComplete
+C:\Users\raczm\Documents\MindRove\SDK_Public\examples\cs\boardconfig\obj\Debug\boardconfig.exe
+C:\Users\raczm\Documents\MindRove\SDK_Public\examples\cs\boardconfig\obj\Debug\boardconfig.pdb
