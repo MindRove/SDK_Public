@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System;
-using brainflow;
+using mindrove_brainflow;
 
 using Accord.Math;
 

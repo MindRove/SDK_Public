@@ -8,21 +8,21 @@ with open(os.path.join(this_directory, 'README.md')) as f:
     long_description = f.read()
 
 setup(
-    name='brainflow',
-    version='0.0.1',  # replaced in CI
+    name='mindrove-brainflow',
+    version='2.0.1',  # replaced in CI
     description='Python Binding for BrainFlow',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/brainflow-dev/brainflow',
-    author='Andrey Parfenov',
-    author_email='a1994ndrey@gmail.com',
+    url='https://mindrove.com',
+    author='MindRove Kft.',
+    author_email='info@mindrove.com',
     packages=find_packages(),
     install_requires=[
         'numpy',
         'nptyping'
     ],
     package_data={
-        'brainflow': [
+        'mindrove_brainflow': [
             os.path.join('lib', 'BoardController.dll'),
             os.path.join('lib', 'BoardController32.dll'),
             os.path.join('lib', 'libBoardController.so'),

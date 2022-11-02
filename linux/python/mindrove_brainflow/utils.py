@@ -1,7 +1,7 @@
 import numpy as np
 
-from brainflow.board_shim import BrainFlowError
-from brainflow.exit_codes import BrainflowExitCodes
+from mindrove_brainflow.board_shim import BrainFlowError
+from mindrove_brainflow.exit_codes import BrainflowExitCodes
 
 
 def check_memory_layout_row_major(data, ndim):
