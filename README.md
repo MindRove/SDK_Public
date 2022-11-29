@@ -3,5 +3,5 @@
 </br>
 </br>
 
-If you want to use old SDK, please check the [Release page](https://github.com/MindRove/SDK_Public/releases)
+If you want to use old SDK, please check the [Release page](https://github.com/MindRove/SDK_Public/releases) and [Wiki](https://github.com/MindRove/SDK_Public/wiki)
 
