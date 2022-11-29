@@ -1,5 +1,0 @@
-[2022-02-25 12:56:25.225] [board_logger] [info] incoming json: {"serial_port":"","mac_address":"","ip_address":"","ip_port":0,"ip_protocol":0,"other_info":"","timeout":0,"serial_number":"","file":""}
-[2022-02-25 12:56:25.226] [board_logger] [trace] Board object created 38
-[2022-02-25 12:56:25.227] [board_logger] [trace] start stream
-[2022-02-25 12:56:25.227] [board_logger] [debug] use stub streamer
-[2022-02-25 12:56:53.219] [board_logger] [trace] stop stream
