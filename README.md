@@ -1,4 +1,9 @@
-# MindRove (& neuroLeet) SDK
+# DEPRECATED REPOSITORY
+#### <i>The current repository was updated and moved to [MindRoveSDK](https://github.com/MindRove/MindRoveSDK). </i>
+</br>
+</br>
+
+## MindRove (& neuroLeet) SDK
 
 
 The <b>[MindRove](https://mindrove.com/)</b>/<b>[neuroLeet](https://neuroleet.gg/)</b> SDK has <b>[Brainflow](https://github.com/brainflow-dev/brainflow)</b>  as it's base framework. 
